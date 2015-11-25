@@ -1,0 +1,202 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+
+    <script type="text/javascript">
+        (function e(){var e=document.createElement("script");e.type="text/javascript",e.async=true,e.src="//staticw2.yotpo.com/ycKq2BpSdvJykwvPP97xefBqvLQF7hcHpZv8hbH2/widget.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+
+
+
+<div class="navbar navbar-inverse navbar-static-top">
+
+    <div class="container">
+
+        <a href="#" class="navbar-brand">Support Portal</a>
+
+        <button class="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+
+            <span class = "icon-bar"></span>
+            <span class = "icon-bar"></span>
+            <span class = "icon-bar"></span>
+            <span class = "icon-bar"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse navHeaderCollapse">
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Home</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container">
+    <div class="jumbotron text-center">
+        <div> <img src="https://www.yotpo.com/wp-content/themes/tg/images/logo_blue.png"></div>
+        <h2>Rich snippets diagnostics</h2>
+
+
+<script>
+    window.test = function (event) {
+    event.preventDefault();
+    location.href = "https://developers.google.com/structured-data/testing-tool/?hl=en&url=" + document.getElementById('rsurl').value;
+    return false;
+}
+</script>
+
+            <div id="form1" class="ui form">
+                <div class="fields">
+                    <div class="field">
+
+                        <input class="form-control" placeholder="Enter Product URL" id="rsurl" type="text" />
+
+
+                        <input style="margin: 15px; width: 100px;" name="rsdiag" class="btn btn-primary" type="button" value="Test!" onclick="sendCallNow()" />
+                        <input style="margin: 15px; width: 110px;" name="goobutton" class="btn btn-primary" type="button" value="Google Check" onclick="test(event)" />
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+    </div>
+
+    <div style="margin-bottom: 20px; " class="list-group-item" role="alert">  <span class="label label-info">More than 5 occurrences per item hints at duplicates</span>
+        <span class="label label-info">Unsupported markup has to be replaced with schema.org</span><h5 id="appkey">APP KEY:</h5><span class="label label-info">If minimum requirements are not met, google will not index the rich snippets, result has to be empty</span><h5 id="req1">Minimum markup requirements: </h5><h5 id="dupli">Duplicates: </h5><h5 id="unsupported">Unsupported markup: </h5><h5 id="status">Connection status: </h5></div>
+    <!-- end form -->
+
+
+
+    </form>
+
+
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-4">
+            <ul class="list-group">
+
+                <li class="list-group-item list-group-item-info"><h4>In-Place:</h4></li>
+                <li class="list-group-item list-group-item-success"><h4 id="snippet1"></h4><h4 id="snippet2"></h4><h4 id="snippet3"></h4><h4 id="snippet4"></h4><h4 id="snippet5"></h4><h4 id="snippet6"></h4><h4 id="snippet7"></h4><h4 id="snippet8"></h4><h4 id="snippet9"></h4><h4 id="snippet10"></h4><h4 id="snippet11"></h4></li>
+
+
+        </div>
+
+        <div class="col-xs-4">
+            <div class="list-group">
+
+                <li class="list-group-item list-group-item-info"><h4>Missing Itemprops:</h4></li>
+                <li class="list-group-item list-group-item-danger"><h4 id="snippet111"></h4><h4 id="snippet22"></h4><h4 id="snippet33"></h4><h4 id="snippet44"></h4><h4 id="snippet55"></h4><h4 id="snippet66"></h4><h4 id="snippet77"></h4><h4 id="snippet88"></h4><h4 id="snippet99"></h4><h4 id="snippet00"></h4><h4 id="snippet111"></h4></li>
+
+            </div>
+        </div>
+
+        <div class="col-xs-4">
+            <div class="list-group">
+
+                <li class="list-group-item list-group-item-info"><h4 id="dupli2">Duplicates/Discrepancies: <br></h4></li>
+
+
+
+            </div>
+        </div>
+
+        </ul>
+
+    </div>
+    <div style="margin-bottom: 20px; " class="list-group-item" role="alert"><h5 id="appkey">Data scope reference: </h5>
+        <span class="label label-info">In development</span>
+        <p><h4>{product scope includes:}</h4>
+            {
+            name,
+            url,
+            image,
+            description,
+        <h4>{aggregateRating includes:</h4> {
+            ratingValue,
+            ratingCount,
+            }
+        <h4> {offers include:}</h4>
+            price,
+            priceCurency,
+            }
+            </p>
+
+
+        <h3 id="scopster" class="list-group-item">Data scope result: </h3>
+        <span class="label label-info">In development</span>
+    </div>
+
+</div>
+
+
+
+<div class="container">
+    <script type="text/javascript"> (function e(){var e=document.createElement("script");e.type="text/javascript",e.async=!0, e.src="//staticw2.yotpo.com/ycKq2BpSdvJykwvPP97xefBqvLQF7hcHpZv8hbH2/widget.js";var t=document.getElementsByTagName("script")[0]; t.parentNode.insertBefore(e,t)})(); </script>
+    <div id='yotpo-testimonials-custom-tab'></div>
+</div>
+
+<div class="navbar navbar-default navbar-fixed-bottom">
+
+    <div class="container">
+        <p class="navbar-text pull-left">Support site</p>
+        <a href="#" class="navbar-btn btn pull-right">RS Diagnostics</a>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<script src="rsdiag.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+
+</body>
+</html>
+
+
